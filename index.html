@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TVA Car Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="app">
+      <h1>TVA Car Calculator</h1>
+      <div id="tva-calculator">
+        <form id="vehicle-form" class="vehicle-form">
+          <div>
+            <label for="brand">Marque :</label>
+            <input type="text" id="brand" required />
+          </div>
+
+          <div>
+            <label for="model">Modèle :</label>
+            <input type="text" id="model" required />
+          </div>
+
+          <div>
+            <label for="year" value="">Date de fabrication :</label>
+            <input type="date" id="year" required />
+          </div>
+
+          <div>
+            <label for="made-in-europe">Fabrication en Europe</label>
+            <input type="checkbox" name="made-in-europe" id="made-in-europe" />
+          </div>
+
+          <div>
+            <label for="buying-price">Prix du véhicule en Euros :</label>
+            <input type="number" id="buying-price" required />
+          </div>
+
+          <input id="submit-btn" type="submit" value="Calculer la TVA" />
+        </form>
+
+        <div id="result"></div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgba(128, 128, 128, 0.493);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#app {
+  background-image: linear-gradient(to right, #154655 0%, #30554f 100%);
+  padding: 24px 10px 10px;
+  border-radius: 16px;
+  width: 100%;
+  height: 800px;
+  max-width: 70%;
+  box-shadow: 3px 4px 10px 0px #a76666c2;
+  display: block;
+}
+
+form div {
+  display: block; /* Les rends empilés verticalement */
+}
+
+input {
+  margin: 5px 0px 25px 0px;
+  font-size: 1.5rem;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(206, 206, 206);
+}
+
+label {
+  margin: 30px;
+  font-size: 1.5rem;
+  color: rgba(250, 250, 250, 0.877);
+}
+
+#tva-calculator {
+  text-align: center;
+  margin-top: 0px;
+}
+
+#submit-btn {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.795);
+  border: 3px solid;
+  margin: 40px;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.7);
+}
+
+div #result {
+  display: inline-block;
+  margin-top: 30px;
+  height: 150px;
+  width: 80%;
+  background: white;
+  border-radius: 15px;
+}
+
+div #result p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  margin-top: 20px;
+}
